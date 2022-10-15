@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+.sec0 {
+    background-image: linear-gradient(rgba(0,0,0,0.32), rgba(0,0,0,0.7)), 
+    url(../images/meeting2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.sec0 h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+.sec0 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 60%;
+}
+
+                /* Sec0 ENDS */
+
+.sec1 {
+    background: rgb(170, 168, 168) ;
+    padding: 25px 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navLeft img {
+    width: 90px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navRight ul {
+    list-style: none;
+}
+.navRight ul li {
+    display: inline-block;    
+}
+.navRight ul li a {
+    text-decoration: none ;
+    padding: 0px 30px;
+    color: black;
+}
+
+                /*------------------ Sec1 ENDS -------------------*/
+
+.sec2, .sec4, .sec5, .sec8 {
+    background: #fff;
+    padding: 3% 5%;  
+    text-align: center;  
+}  
+.sec2 h2 {
+    font-size: 25px ;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.sec2 h2 span {
+    color: aqua;
+    font-size: 25px;
+}
+.sec2 .separate {
+    position: relative;
+}
+.sec2 .divider::after {
+     content: " ";
+     position: absolute; 
+     width: 100px;
+     height: 2px; 
+     background:black ;
+     bottom: -25px;
+     right: 48%;
+}
+.s2box img {
+    width: 100%;
+}
+.s2box, .s8box {
+    width: 28%;
+    float: left;
+    padding: 0px 35px;
+}
+.s2container, .s8container {
+    overflow: hidden;
+    padding-top: 45px;
+}
+
+                /*-------------------------- Sec2 ENDS ------------------------*/
+
+.sec3 {
+    background-image: linear-gradient(rgba(225,225,225,0.3), rgba(225,225,225,0.3)), url(../images/chri-rie-cEN16olh-EY-unsplash.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(63, 60, 60);
+    padding: 3% 5%;
+    background-attachment: fixed;
+}
+.s3container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.s3box {
+    float: left;
+    width: 25%;
+}
+.s3box i {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 4%;  
+}
+
+.s3box h2 {
+    font-size: 30px;
+    line-height: 45px;
+    /* margin: 1%; */
+    font-weight: 800;
+}
+
+                /*---------------- Sec3 ENDS ---------------------*/
+
+.sec4 h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+.s4top {
+    display: flex;
+    margin-top: 30px ;
+}
+.s4img img {
+    width: 100%;
+    line-height: 0;
+}
+.s4img {
+    position: relative;
+    line-height: 0;
+} 
+.s4overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.45);
+    color: blanchedalmond;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.s4overlay i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background: #fff;
+    line-height: 40px ;
+    margin-right: 8px;
+}
+.s4img:hover .s4overlay {
+    opacity: 1;
+}
+
+                /*------------------ Sec4 ENDS --------------*/
+                        
+.sec5 h2 {
+font-size: 25px;
+font-weight: 800;
+}
+.s5img img {
+    width: 100%;
+}
+.s5container {
+    display: flex;
+    margin-top: 60px;   
+}
+.s5box {
+    display: flex;
+    align-items: center;
+}
+.s5img {
+    flex-basis: 48%;  
+}
+.s5content {
+    text-align: left;
+    margin-left: 30px;
+    flex-basis: 48%;
+}
+.s5icon i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(31, 31, 32);
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+                /*-------------------- Sec5 ENDS --------------------*/
+
+.sec6 {
+    background: #fff;
+    padding: 0 5%;  
+    text-align: center;   
+}
+.sec6 h3 {
+    font-size: 25px;
+    font-weight: 800;
+    background: white;
+    width:300px;
+    margin: auto;
+    display: block;
+}
+.s6heading {
+    position: relative;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+.s6heading::before {
+    content: " ";
+    background: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 12px;
+    z-index: -1;
+}
+.s6circle {
+    width: 120px;
+    height: 120px;
+    background:rgb(235, 228, 228);
+    border-radius: 50%;
+    border: 2px solid rgb(2, 4, 90);
+    display: flex;
+    align-items: center;
+    color: rgba(190, 12, 12, 0.932);
+    justify-content: center;
+}
+.s6top {
+    margin: 100px;
+    display: flex; 
+    justify-content: space-between ;
+}
+
+                /*------------------ Sec6 ENDS -------------------*/
+
+.sec7 h3 {
+    font-size: 25px;
+}              
+.sec7 {
+    background-image: linear-gradient(rgba(5, 98, 126, 0.9), rgba(57, 58, 58, 0.45)), 
+    url(../images/ship-1366926_1920.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-attachment: fixed; 
+}     
+
+                /*---------------- Sec7 ENDS -----------------*/
+
+.sec8 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+.s8container {
+    display: flex;
+}
+.s8box i {
+    width: 50px;
+    height: 50px;
+    border: 0px solid rgb(7, 105, 109);
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin: 40px 60px;
+    background: rgb(106, 224, 224);
+    font-size: 25px;
+}
+
+             /*---------------- Sec8 ENDS -------------------*/
+
+.sec9 h1 {
+font-size: 30px;
+font-weight: 900;
+padding-bottom: 5px;
+}
+.sec9 {
+    background: #fff; 
+    text-align: center;  
+    list-style: none;
+    padding: 3% 5%;  
+}  
+.s9container {
+    overflow: hidden;
+    padding: 30px 180px;
+    margin-left: 100px ;
+}             
+.s9box {
+    width: 22%;
+    float: left;
+    padding: 30px 25px;
+    text-align: left;
+    list-style: none;
+    background: rgb(198, 220, 233);
+    border: 2px solid rgb(198, 220, 233);
+    margin-right: 85px;
+    height: 430px;
+}
+#middle {
+    height: 510px;
+}
+#btm {
+    height: 590px;
+}
+.s9box h4 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;   
+    padding-bottom: 15px;   
+}
+.s9box h3 {
+    font-weight: 700; 
+    font-size: 35px;
+    line-height:48px;   
+    padding-bottom: 35px;
+}
+.s9box p {
+    list-style: none;
+    font-size: 16px;
+    line-height:35px;  
+    font-weight: 400; 
+    color: rgb(119, 119, 241);
+}
+.s9box p span {
+    font-size: 60px;
+    line-height:40px ;  
+    color: #000;
+}
+.s9box p sup {
+    font-size: 30px;
+    line-height:20px ;  
+    color: #000;
+}
+.s9box ul {
+    list-style: none ;
+    color: rgb(10, 10, 10);  
+    padding-bottom: 30px; 
+}
+.s9box ul i{
+    color: rgb(75, 43, 7);
+    font-size: 15px;  
+    margin-right: 15px;  
+    padding-bottom: 20px;
+}  
+.s9box a {
+    background: rgb(170, 170, 248);
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}
+#middle a {
+    background: rgb(241, 181, 163);
+}
+#btm a {
+    background: rgb(241, 157, 196);
+}
+                
+                /*-------------------- Sec9 ENDS ---------------------*/
+.sec10 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 5px;
+    }
+.sec10 {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-image: linear-gradient(rgba(225,225,225,0.5), rgba(225,225,225,0.2)),url(../images/skyscraper-view-city-leader-window-frame.jpg);
+    color: black;
+    line-height: 40px;
+    font-size: 25px;
+    background-attachment: fixed;
+}
+/*--------------- Sec10 ENDS---------------------- */
+.sec11 h1 {
+    margin-top: 80px;
+font-size: 30px;
+font-weight: 900;
+padding-bottom: 5px;
+text-align: center;
+}
+.sec11container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sec11 h3 {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    line-height:35px ;
+    font-size: 25px;
+    font-weight: 800;
+}
+.sec11 p {
+    text-align: center;
+    line-height:30px ;
+    font-size: 20px;
+    font-weight: 300;
+}
+.title {
+    text-align: left;
+    line-height: 10px ;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 140px;
+}
+form {
+    width: 40%;
+    display: block;
+    margin: 5px 10%;  
+}
+.field {
+    display: flex;
+    padding-right: 4px;
+    gap: .6rem;
+}
+.fieldNote {
+    display: flex;
+    padding-right: 0px;
+    gap: .5rem;
+}
+input , textarea {
+    width: 49%;
+    height:55px;
+    margin-top: 20px;
+    outline: none;
+    box-sizing:border-box ;
+    background-color: rgb(246, 242, 242);
+}
+textarea {
+    height: 200px;
+    width: 100%;
+}
+::placeholder {
+    color: rgb(88, 7, 163);
+    font-size: 16px;
+}
+.fieldSubmit input {
+    border: 3px solid rgb(54, 119, 240);
+    text-align: center; 
+    width: 25%;  
+    background: rgb(54, 119, 240);
+    font-weight: 800;
+}
+.sec11container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec11Right-col {
+    flex-basis: 40%;
+}
+.sec11Left-col {
+    flex-basis: 60%;
+    margin: 30px;
+}
+iframe {
+    max-width: 100%;
+}
+   /*--------------- Sec11 ENDS---------------------- */
+
+.sec12 {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    position: relative; 
+}   
+.s12box {
+    margin: 30px;
+    box-sizing: border-box;
+    border: 2px solid #777 ;
+    width: 100%;
+    padding:30px 10px ;
+}
+.s12box i {
+    color: rgb(75, 43, 7);
+    font-size: 34px;  
+    margin-right: 15px;  
+    padding-bottom: 40px;
+}
+.footerSection h1 {
+    margin-bottom:38px;
+    text-align: start;
+}
+footerSection span {
+    font-size: 10px;
+}
+
+ /*--------------- Sec12 ENDS---------------------- */
+
+.footer {
+    width: 100%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color:#fff;
+    padding: 20px 0 30px;
+    /* border-top-left-radius: 100px; */
+    line-height: 38px;
+}
+.s13Footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footerSection {
+    flex-basis: 30%;
+    padding: 15px;
+}
+.footerSection h1 {
+    width: fit-content;
+    margin-bottom: 30px 20px;
+}
+.footerBottom-left {
+    margin-top: 50px;
+}
+.footerBottom-left h6 {
+    text-align: center; 
+}
+.footerBottom-left {
+    font-size: 10px;
+}
+
